@@ -3,7 +3,7 @@ spring:
     name: POST-SERVICE
   datasource:
     url: jdbc:h2:mem:testdb
-    username: root
+    username: "{cipher}3c940dc2a673c512e839233eb59329f1b817cd3c5e64c89745de0ead73bdcc81"
     password: "{cipher}676097b25e0ec9f871bcc8d88c7e997c7b2fefea6737f2ed357e7b11f0ffa07a"
     driver-class-name: org.h2.Driver
 
